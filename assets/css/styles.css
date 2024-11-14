@@ -41,7 +41,7 @@ main section{
 
 main section .figsection{
     display: flex;
-    margin-top: 2em;
+   
 }
 main section figure{
     margin: 0.5em;
@@ -78,4 +78,5 @@ footer{
     padding: 1em;
     text-align: center;
     background-color: green;
+    color: white;
 }
