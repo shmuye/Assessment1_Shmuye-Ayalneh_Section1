@@ -137,7 +137,11 @@
       </section>
     </main>
     <footer>
-      <p>&copy;Your Company Name.All Rights Reserved</p>
+      <p>&copy;<span id="year"></span> Your Company Name.All Rights Reserved</p>
     </footer>
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById("year").textContent = year;
+    </script>
   </body>
 </html>
