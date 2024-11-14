@@ -34,14 +34,13 @@ header nav ul a{
 header nav ul a:hover{
     background-color: #bbb;
 }
-main{
-    display: flex;
-    flex-direction: column;
-}
 main section{
-    display: flex;
     width: 80%;
     margin: auto;
+}
+
+main section .figsection{
+    display: flex;
     margin-top: 2em;
 }
 main section figure{
