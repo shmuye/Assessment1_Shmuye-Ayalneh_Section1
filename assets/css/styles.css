@@ -72,7 +72,7 @@ main section figure span{
     margin: 1em 0;
     color: green;
 }
-main section:nth-child(2){
+main section:nth-child(3){
     padding-bottom: 3em;
 }
 footer{
