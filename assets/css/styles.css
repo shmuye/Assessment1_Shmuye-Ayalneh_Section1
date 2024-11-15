@@ -14,7 +14,7 @@ header{
 }
 header h1{
     padding: 1em 0;
-    background-color: hsl(195, 53%, 90%);
+    background-color:  #d9eed9;
     
 }
 header nav ul{
@@ -26,7 +26,7 @@ header nav ul{
 }
 header nav ul a{
     margin:0 2em;
-    color: green;
+    color: #4CAF50;
     text-decoration: none;
     padding: 5%;
     border-radius: .2em;
@@ -50,18 +50,22 @@ main section .figsection{
     display: flex;
     flex-direction: column;
 }
+
 main section .figsection figure{
     margin: 0.5em;
     border-radius: .5em;
     text-align: center;
     width: 100%;
     background-color: white;
-    padding: 0.5em;
+    padding: 1em;
     box-shadow: 1px 1px 3px #aaa,-1px -1px 4px #aaa;
 }
+main section .figsection figure:nth-child(even){
+    padding-bottom: 5em;
+}
+
 main .figsection figure img{
     max-width: 100%;
-     
 }
 main section figure h3{
     margin: 1em 0;
@@ -70,17 +74,19 @@ main section figure span{
     display: block;
     margin: 1em 0;
     color: green;
+    font-size: 1.5em;
 }
 
 
 footer{
     padding: 1em;
     text-align: center;
-    background-color: green;
+    background-color: #124314;
     color: white;
 }
-@media screen and (min-width: 748px)  {
+@media screen and (min-width: 728px)  {
     main section .figsection{
         display: flex;
         flex-direction: row;
+}
 }
