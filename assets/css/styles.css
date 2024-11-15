@@ -30,6 +30,7 @@ header nav ul a{
     text-decoration: none;
     padding: 5%;
     border-radius: .2em;
+   
 }
 header nav ul a:hover{
     background-color: #bbb;
@@ -42,7 +43,7 @@ main{
   
 }
 main section{
-    width: 100%;
+    width: 100%; 
     margin: auto;
 }
 
@@ -60,9 +61,7 @@ main section .figsection figure{
     padding: 1em;
     box-shadow: 1px 1px 3px #aaa,-1px -1px 4px #aaa;
 }
-main section .figsection figure:nth-child(even){
-    padding-bottom: 5em;
-}
+
 
 main .figsection figure img{
     max-width: 100%;
@@ -102,9 +101,10 @@ footer{
     main section .figsection{
         display: flex;
         flex-direction: row;
-}
-main section .figsection figure{
+    }
+  main section .figsection figure{
     margin:0  2em;
+    width: 33.33%;
 }
 main section{
     margin: 1em 0;
