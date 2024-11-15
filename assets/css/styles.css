@@ -84,9 +84,29 @@ footer{
     background-color: #124314;
     color: white;
 }
-@media screen and (min-width: 728px)  {
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    main section .figsection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+
+    main section .figsection figure {
+        width: 48%; 
+        margin: 1em 0; 
+    }
+}
+@media screen and (min-width: 1024px)  {
     main section .figsection{
         display: flex;
         flex-direction: row;
+}
+main section .figsection figure{
+    margin:0  2em;
+}
+main section{
+    margin: 1em 0;
 }
 }
